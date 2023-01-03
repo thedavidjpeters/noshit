@@ -1,0 +1,147 @@
+baseURL = "/"
+title = "NOSH IT"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = "7"
+theme = "spectral"
+
+[params]
+fancyTitle = "NOSH IT" # title for frontpage, may include image
+copyright = "David Peters"
+description = 'Imagine if Business IT<br />could be as simple<br />as this website'
+#startbuttonText = "Activate"
+#startbuttonLink = "#"
+body_is_markdown = true
+#custom_css = "foo.css"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+[[params.menu.main]]
+url = '/posts/'
+title = "Posts"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
+enable = true
+title = 'NOSH IT will provide the support and consulting you need without the SH*T'
+body = '''
+As an experienced IT consultantncy we have found the best way to get a positive result for our customers it to cut the tech mumbo jumbo and just say what needs to happen and how.
+<br>We promise to deliver simple and easy to understand solutions that won't leave you scratching your head asking what did I just pay for.</br>
+'''
+
+[[params.one.icon]]
+icon = "fa-laptop"
+style = "1"
+label = "Lorem"
+
+[[params.one.icon]]
+icon = "fa-wifi"
+style = "2"
+label = "Ipsum"
+
+[[params.one.icon]]
+icon = "fa-code"
+style = "3"
+label = "Dolor"
+
+[params.two]
+enable = false
+
+[[params.two.section]]
+img = "img/pic01.jpg"
+title = 'Magna primis lobortis<br />sed ullamcorper'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[[params.two.section]]
+img = "img/pic02.jpg"
+title = 'Tortor dolore feugiat<br />elementum magna'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[[params.two.section]]
+img = "img/pic03.jpg"
+title = 'Magna primis lobortis<br />sed ullamcorper'
+body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+
+[params.three]
+enable = true
+title = 'Services we can provide'
+body = '''
+We believe in keeping it short and sweet, here is what we can help with
+'''
+
+[[params.three.feature]]
+icon = "fa-paper-plane-o"
+title = "IT consulting"
+body = "Sitting there thinking what to do next with your business IT, let NOSH take a look and give you some direction, there could be dollars to save or disasters to avert."
+
+[[params.three.feature]]
+icon = "fa-laptop"
+title = "Azure"
+body = "Who wants a big clunky costly server sitting in their office begging to be switched off, we can help you move your workload to the magic Microsoft cloud in the sky."
+
+[[params.three.feature]]
+icon = "fa-code"
+title = "Office 365"
+body = "Needing to setup email for a new business venture or just have a second set of eyes check over your security settings in Office365, we can sort you out."
+
+[[params.three.feature]]
+icon = "fa-headphones"
+title = "Networking"
+body = "Need Wi-Fi to work anywhere in your office, no worries. Want speedy and secure internet, can do. How about stopping those badies getting in, we have you covered."
+
+[[params.three.feature]]
+icon = "fa-heart-o"
+title = "Web Hosting"
+body = "Want web hosting that is snappy and doesn't make the wallet hurt, we can help with that."
+
+[[params.three.feature]]
+icon = "fa-flag-o"
+title = "Proposal Analysis"
+body = "Ever had an IT proposal come across your desk that makes you sigh, we can review it and tell you if you are being sold a dream or a real solution."
+
+[params.cta]
+enable = false
+title = "Arcue ut vel commodo"
+body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
+
+[[params.cta.link]]
+href = "#"
+text = "Activate"
+special = true
+
+[[params.cta.link]]
+href = "#"
+text = "Learn More"
+special = false
+
+[params.contact]
+enable = true
+title = "Contact"
+body = "Leave us a message."
+phone = "+49 (0) 030 000 000"
+address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+email = "nospam@example.com"
+subject = "New Submission!"
+formspree_form_id = "example_invalid"
+
+[params.social]
+linkedin = "test"
+facebook = "test"
+instagram = "test"
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
