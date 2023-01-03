@@ -8,7 +8,7 @@ theme = "spectral"
 [params]
 fancyTitle = "NOSH IT" # title for frontpage, may include image
 copyright = "David Peters"
-description = 'Imagine if Business IT<br>could be as simple<br>as this website'
+description = 'Imagine if Business IT <br>could be as simple <br>as this website'
 #startbuttonText = "Activate"
 #startbuttonLink = "#"
 body_is_markdown = true
