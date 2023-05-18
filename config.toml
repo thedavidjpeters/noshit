@@ -32,7 +32,7 @@ title = "Posts"
 enable = true
 title = 'NOSH IT will provide the support and consulting you need without the SH*T'
 body = '''
-As an experienced IT consultancy we have found the best way to get a positive result for our customers it to cut the tech mumbo jumbo and just say what needs to happen and how.
+As an experienced IT consultancy we have found the best way to get a positive result for our customers is to cut the tech mumbo jumbo and just say what needs to happen and how.
 <br>We promise to deliver simple and easy to understand solutions that won't leave you scratching your head asking what did I just pay for.</br>
 '''
 
@@ -98,8 +98,8 @@ body = "Need Wi-Fi to work anywhere in your office, no worries. Want speedy and 
 
 [[params.three.feature]]
 icon = "fa-heart-o"
-title = "Web Hosting"
-body = "Want web hosting that is snappy and doesn't make the wallet hurt, we can help with that."
+title = "Cloud Security"
+body = "Keeping your data safe is one of your biggest priorities, let us fight away the internet baddies with you."
 
 [[params.three.feature]]
 icon = "fa-flag-o"
@@ -132,9 +132,7 @@ subject = "New Submission!"
 formspree_form_id = "moqzqjrr"
 
 [params.social]
-linkedin = "test"
-facebook = "test"
-instagram = "test"
+linkedin = "https://www.linkedin.com/in/thedavidjpeters/"
 
 # language specific options
 
