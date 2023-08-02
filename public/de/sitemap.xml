@@ -14,18 +14,6 @@
                 href="/de/categories/"
                 />
   </url><url>
-    <loc>/de/series/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/series/"
-                />
-  </url><url>
     <loc>/de/</loc>
     <xhtml:link
                 rel="alternate"
@@ -36,6 +24,18 @@
                 rel="alternate"
                 hreflang="de"
                 href="/de/"
+                />
+  </url><url>
+    <loc>/de/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/series/"
                 />
   </url><url>
     <loc>/de/tags/</loc>
