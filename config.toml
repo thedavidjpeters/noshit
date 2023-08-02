@@ -122,14 +122,14 @@ text = "Learn More"
 special = false
 
 [params.contact]
-enable = false
-title = "Contact"
-body = "Leave us a message."
+enable = true
+title = "Reach us with"
+body = "Send us a message."
 phone = "0455 247 971"
-address = "Melbourne, Australia"
+address = "Newcastle, Australia"
 email = "helpme@nosh-it.xyz"
-subject = "New Submission!"
-formspree_form_id = "moqzqjrr"
+#subject = "New Submission!"
+#formspree_form_id = "moqzqjrr"
 
 [params.social]
 linkedin = "https://www.linkedin.com/in/thedavidjpeters/"
