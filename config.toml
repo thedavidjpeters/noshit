@@ -93,8 +93,8 @@ body = "Needing to setup email for a new business venture or just have a second 
 
 [[params.three.feature]]
 icon = "fa-headphones"
-title = "Networking"
-body = "Need Wi-Fi to work anywhere in your office, no worries. Want speedy and secure internet, can do. How about stopping those badies getting in, we have you covered."
+title = "Essential 8"
+body = "We use the latest cyber security framework from the Australian government to help keep your business more secure and humming along smoothly."
 
 [[params.three.feature]]
 icon = "fa-heart-o"
@@ -125,7 +125,6 @@ special = false
 enable = true
 #title = "Reach us with"
 #body = "Send us a message."
-phone = "0455 247 971"
 address = "Newcastle, Australia"
 email = "helpme@nosh-it.xyz"
 #subject = "New Submission!"
